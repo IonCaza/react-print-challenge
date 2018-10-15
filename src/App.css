@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  display: block;
+  border: 1px #fff;
+  width: 100%;
+  border-style: solid;
+}
+
+.Main {
+  display: block;
+  background-color: #000;
+  color: #fff;
+}
+
+@media print {
+
+  .App {
+    display: block;
+  }
+  
+  body {
+    -webkit-print-color-adjust: exact !important;
+  }
+
+  @page {
+    size: 8.5in 11in;
+    margin: 0in;
+  }
+}
